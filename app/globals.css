@@ -86,7 +86,6 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
@@ -104,4 +103,27 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+/* CUSTOM */
+
+.cool-background {
+  background-color: #deb5a2;
+  z-index: -1;
+}
+
+.cool-background-2 {
+  z-index: 0;
+  background-image: url("../public/images/grey-washed-wall.png");
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.link-buffer {
+  padding-right: 1rem;
+  padding-left: 0.5rem;
 }

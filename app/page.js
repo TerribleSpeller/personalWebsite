@@ -1,94 +1,39 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import NavBar from "./components/navbar"
+import Link from 'next/link'
+
 
 export default function Home() {
+  var encEmail = "ZW1haWxAYWRkcmVzcy5jb20=";
+  var deEncryptedEmail = "mailto:".concat(atob(encEmail));
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+    <main>
+      <div className="container">
+        <NavBar/>
+          <div className="container" id="intro">
+            <h1>Hello, I'm Jason Alexander!</h1>
+            <p>
+              Hello! I'm a Student who's currently studying Automotive and Robotics Engineering  with a drive to create things that can be applied effectively to assist others in their own creative and sustainable endeavors. Meaning that I tinker a lot with websites! Mainly using Next.js and React, with React Native soon on its way once I get a hang of it! In addition to that, I've dabbled with mobile application development using Kotlin and Firebase, Internet of Things using ESP32 and Arduinos, Machine Learning with Tensorflow and Sckit-learn, and also Google Cloud and SAP are on my radar of skills. 
+            </p>
+            <p>
+              You could say, that I am quite the veritable Swiss Army Knife of skills! With a passion for learning, adapting and creating, I'm always looking for new opportunities to expand my horizons and learn new things.
+            </p>
+          </div>
+          <div id="contacts" className="container mt-4">
+            <h2>Contacts</h2>
+            <div className="d-flex flex-row" >
+              <div className="d-flex flew-row">
+                <i className="bi bi-linkedin"></i> <Link href="https://www.linkedin.com/in/jason-alexander-yuwono-4ab514220/" className="nav-link link-module link-buffer">LinkedIn</Link>
+              </div>
+              <div className="d-flex flew-row">
+                <i className="bi bi-github"></i> <Link href="https://github.com/TerribleSpeller" className="nav-link link-module link-buffer">Github</Link>
+              </div>
+              <div className="d-flex flew-row">
+                <i className="bi bi-github"></i> <Link href="mailto:&#x6a;&#x61;&#x73;&#x6F;&#x6E;&#x61;&#x6C;&#x65;&#x78;&#x61;&#x6E;&#x64;&#x65;&#x72;&#x79;&#x75;&#x77;&#x6F;&#x6E;&#x6F;&#x40;&#x67;&#x6D;&#x61;&#x69;&#x6C;&#x2E;&#x63;&#x6F;&#x6D;" className="nav-link link-module link-buffer" id="contact">Email</Link>
+              </div>
+            </div>
+          </div>
       </div>
     </main>
   );
