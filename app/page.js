@@ -29,6 +29,9 @@ export default function Home() {
               <div className="d-flex flew-row">
                 <i className="bi bi-github"></i> <Link href="https://github.com/TerribleSpeller" className="nav-link link-module link-buffer">Github</Link>
               </div>
+              <div className="d-flex flew-row">
+                <i className="bi bi-github"></i> <Link href={deEncryptedEmail} id="contact">Email</Link>
+              </div>
             </div>
           </div>
       </div>
