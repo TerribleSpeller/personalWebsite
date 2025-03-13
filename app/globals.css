@@ -108,7 +108,7 @@ a {
 /* CUSTOM */
 
 .cool-background {
-  background-color: #deb5a2;
+  background-color: #ffdebb;
   z-index: -1;
 }
 
@@ -271,4 +271,56 @@ a {
 
 p {
   font-size: 14px;
+}
+
+ul {
+  font-size:14px;
+}
+
+/*Cool font shit */
+.timeline {
+  position: relative;
+  padding-left: 20px;
+  border-left: 3px solid orange; /* Vertical line */
+}
+
+.timeline-exp {
+  position: relative;
+  padding-left: 20px;
+  border-left: 3px solid rgb(0, 136, 255); /* Vertical line */
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+
+.circle {
+  position: absolute;
+  left: -28px;
+  top: 0px;
+  width: 14px;
+  height: 14px;
+  background-color: orange;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.circle-exp {
+  position: absolute;
+  left: -28px;
+  top: 0px;
+  width: 14px;
+  height: 14px;
+  background-color: rgb(0, 136, 255);
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+
+.content p, .content span {
+  color: rgb(53, 53, 53);
 }

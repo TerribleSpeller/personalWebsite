@@ -22,11 +22,11 @@ const Navbar = () => {
             </div>
             <ul className="nav ">
               
-              <li className="nav-item pt-3 ">
+              {/* <li className="nav-item pt-3 ">
                 <Link href="/about" className="nav-link link-module">
                 <span>About</span>
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </header>
           <header className="d-flex flex-wrap justify-content mb-5 pb-2 border-bottom"></header>
