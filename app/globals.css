@@ -108,7 +108,7 @@ a {
 /* CUSTOM */
 
 .cool-background {
-  background-color: #ffdebb;
+  background-color: #fbe6cf;
   z-index: -1;
 }
 
@@ -290,6 +290,12 @@ ul {
   border-left: 3px solid rgb(0, 136, 255); /* Vertical line */
 }
 
+.timeline-pro {
+  position: relative;
+  padding-left: 20px;
+  border-left: 3px solid rgb(113, 91, 177); /* Vertical line */
+}
+
 .timeline-item {
   position: relative;
   margin-bottom: 20px;
@@ -320,6 +326,17 @@ ul {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
 }
 
+.circle-pro {
+  position: absolute;
+  left: -28px;
+  top: 0px;
+  width: 14px;
+  height: 14px;
+  background-color: rgb(113, 91, 177);
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
 
 .content p, .content span {
   color: rgb(53, 53, 53);

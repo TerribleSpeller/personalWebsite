@@ -109,7 +109,76 @@ export default function Home() {
           <h2 className="link-buffer">Projects</h2>
           <div className="d-flex flex-row  mt-3">
             <div className="d-flex flex-column flex-fill link-buffer">
+              <div class="timeline-pro">
+                <div class="timeline-item">
+                  <div class="circle-pro"></div>
+                  <div class="content">
+                    <h4>Automatic Golf Ball Retreiver                    </h4>
+                    <span><i>University Project (Oct 2024 - Jan 2025)</i> | (<Link className="link" href="https://www.linkedin.com/in/jason-alexander-yuwono-4ab514220/details/projects/406420294/multiple-media-viewer?profileId=ACoAADea6sMBdInycYLJA0cgZDrff4dx0EA4RI8&treasuryMediaId=1737720693943&type=IMAGE&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_projects_details%3BOSXoqMdpS6WC1e7FmXR2Ig%3D%3D">Project Link</Link>)</span>
+                    <p>
+                      As a fifth semester project, this project explores the development of an automatic golf ball retrieving robot designed to improve efficiency, sustainability within golf fields, and also as a manner to apply genuine and proper practice of the material learnt from university courses. . The robot is centered around a Raspberry Pi, which serves as the primary processing unit, coordinating serial data exchange and command execution with two Arduino Unos via two ROS 2 Nodes. The system integrates various components to allow object detection, object avoidance, adjustable collector speed control, and omnidirectional mobility by using mecanum wheels. The robot’s implementation demonstrates the potential for reducing labor requirements while promoting environmentally friendly practices in recreational or professional sports environments, and also our capabilities in applying what we have learned in class.
+                    </p><p>
+                      This was made as a joint project for the Control Systems, Machine Learning for Robotics, and Robotic Kinematics and Dynamics Courses.
+                    </p>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="circle-pro"></div>
+                  <div class="content">
+                    <h4>Wynyard Product Knowledge Registration Website                    </h4>
+                    <span><i>Internship Project (Apr 2024 - Jun 2024)</i> | (<Link className="link" href="https://www.linkedin.com/in/jason-alexander-yuwono-4ab514220/details/projects/1274172663/multiple-media-viewer/?profileId=ACoAADea6sMBdInycYLJA0cgZDrff4dx0EA4RI8&treasuryMediaId=1723556059849">Project Link</Link>)</span>
+                    <p>
+                      A Website made specifically for registering for the Wynyard Grand Product Knowledge Event that was hosted by Hiera BSD on the 12th of August, 2024. The project successfully handled up to 1740 Users. With a peak of 677 Active Users, and 36k Requests over the course of the event and the week before. Was provided to guests using the redirect of https://tinyurl.com/agentpkregistration
+                    </p><p>
+                      The goal of the project was to provide a simple and easy mechanisms to identify and register attendees to the event utilizing QR Codes.
+                    </p><p>
+                      The project was created using Firebase Authentication, Firebase Realtime Database, and Firebase Storage. Maintained with Firebase Analystics. Hosted on Vercel (https://wynyard-pk-registration.vercel.app/). QR Code Scanning utilized Html5-QRCode (https://www.npmjs.com/package/html5-qrcode). The project was designed and created over the course of two weeks.
+                    </p>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="circle-pro"></div>
+                  <div class="content">
+                    <h4>Moodbloom</h4>
+                    <span><i>University Project (Apr 2024 - Jun 2024)</i> | (<Link className="link" href="https://www.linkedin.com/in/jason-alexander-yuwono-4ab514220/details/projects/536211907/multiple-media-viewer?profileId=ACoAADea6sMBdInycYLJA0cgZDrff4dx0EA4RI8&treasuryMediaId=1720670615085&type=LINK&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_media_list_details_modal%3B5HMh9QetRRSHyNeNC1Xkaw%3D%3D">Project Link</Link>)</span>
+                    <p>
+                      MoodBloom is a smart pot designed to make indoor gardening more accessible and enjoyable. This smart pot aims to bridge the gap between traditional gardening and modern technology. With just one check in the user’s phone, the user can know exactly how the plant is ‘feeling’. One of MOOD BLOOM’s unique features is its use of emojis to communicate the plant's needs. Whether your plant is thirsty, too cold, or receiving too much sunlight, different emojis will indicate its current state, making plant care intuitive and engaging. Aside from simplifying plant care with showing plant needs through human emotions, this special feature also aims to provide interactivity with the user, where the user could feel like they are taking care of a pet, instead of just a stagnant plant.</p><p>
 
+                      This project was made as part of our projects for the App Engineering, Entreprenurship, and Introduction to Microcontroller Courses.
+                    </p>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="circle-pro"></div>
+                  <div class="content">
+                    <h4>BASE CORE Club Website</h4>
+                    <span><i>University Project (Sep 2023 - May 2024)</i> </span>
+                    <p>
+                      Designed and currently maintaining a website for BASE CORE (Binus ASO School of Engineering Center of Research and Engineering) Club utilizing Boostrap and Next.js, and hosted it on Vercel.com
+                    </p>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="circle-pro"></div>
+                  <div class="content">
+                    <h4>LCD 16 x 2 CPLD Program                    </h4>
+                    <span><i>University Project (Nov 2023 - Jan 2024)</i> | (<Link className="link" href="https://www.linkedin.com/in/jason-alexander-yuwono-4ab514220/details/projects/795804346/multiple-media-viewer?profileId=ACoAADea6sMBdInycYLJA0cgZDrff4dx0EA4RI8&treasuryMediaId=1716635240237&type=DOCUMENT&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_projects_details%3B4WrNJ9l8QXm%2FMg0nCB9kGA%3D%3D">Project Link</Link>)</span>
+                    <p>
+                      As per our Digital Systems class, we were required to put the skills we've learned over the semester to program a certain actuator that can be programmed using a Complex Programming Logic Device (CPLD). For my team, we programmed a LCD 16 x 2 Interface using VHDL within aISE Design Suite within a VirtualBox Environment.
+                    </p>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="circle-pro"></div>
+                  <div class="content">
+                    <h4>Lung Diseases Recognition by Trachea Esophagus Sound Analysis</h4>
+                    <span><i>University Project (Sep 2023 - Jan 2024)</i> | (<Link className="link" href="https://www.linkedin.com/in/jason-alexander-yuwono-4ab514220/details/projects/1716634131669/single-media-viewer?type=DOCUMENT&profileId=ACoAADea6sMBdInycYLJA0cgZDrff4dx0EA4RI8&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_projects_details%3B4WrNJ9l8QXm%2FMg0nCB9kGA%3D%3D">Project Link</Link>)</span>
+                    <p>
+                      For our Digital Systems Project in Semester Three, we developed a Support Vector Machine Model that is able to detect and recognise Lung Diseases via Trachea and Esophagus Sound Analysis. This project is based on the fact that Lung diseases are still a persistent issue, but is one with an easily detectable symptoms such as Persistent cough, Shortness of Breath, Crackles, and wheezes, If you can detect these issues, you can be alerted to check if a person has a disease of the lung.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
