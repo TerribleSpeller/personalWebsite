@@ -110,6 +110,16 @@ export default function Home() {
           <div className="d-flex flex-row  mt-3">
             <div className="d-flex flex-column flex-fill link-buffer">
               <div class="timeline-pro">
+              <div class="timeline-item">
+                  <div class="circle-pro"></div>
+                  <div class="content">
+                    <h4>Personal Website </h4>
+                    <span><i>Personal Project (Sep 2024 - Now)</i> | (<Link className="link" href="https://www.linkedin.com/in/jason-alexander-yuwono-4ab514220/details/projects/406420294/multiple-media-viewer?profileId=ACoAADea6sMBdInycYLJA0cgZDrff4dx0EA4RI8&treasuryMediaId=1737720693943&type=IMAGE&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_projects_details%3BOSXoqMdpS6WC1e7FmXR2Ig%3D%3D">Project Link</Link>)</span>
+                    <p>
+                      The Site you're currently on! A personal project that was made to showcase my skills and experiences in a more interactive and engaging manner. The site was made using Next.js, React, and Bootstrap. The site is hosted on Vercel. The site is designed to be a hub for all my projects, experiences, and skills, and is designed to be easily updatable and expandable.
+                    </p>
+                  </div>
+                </div>
                 <div class="timeline-item">
                   <div class="circle-pro"></div>
                   <div class="content">
