@@ -126,7 +126,7 @@ a {
 
 .cool-background-5 {
   z-index: 0;
-  background-image: url("../public/images/natural-paper.png");
+background-image: url("../public/images/natural-paper.png");
 }
 
 .page-content {
@@ -203,7 +203,6 @@ a {
   float: left;
   border: 1px solid #ccc;
   background-color: #9aafb7;
-  width: 30%;
   height: 300px;
 
 }
@@ -212,7 +211,6 @@ a {
   float: left;
   padding: 0px 12px;
   border: 1px solid #ccc;
-  width: 70%;
   border-left: none;
   height: 300px;
 }

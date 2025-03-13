@@ -39,25 +39,25 @@ export default function Home() {
         <div id="about-me" className="container mt-5">
           <h2 className="link-buffer">About Me</h2>
           <div className="d-flex flex-row  mt-3">
-            <div className="d-flex flex-column flex-fill link-buffer">
+            <div className="d-flex flex-column link-buffer">
               <h3>Hobbies</h3>
               <ul>
                 <li>Writing</li>
                 <li>Worldbuilding</li>
-                <li>Reading Fanfics</li>
-                <li>Reading Nonfictional Analyses</li>
+                <li>Websitr Development</li>
+                <li>Reading Analyses</li>
               </ul>
             </div>
-
-            <div className="d-flex flex-column flex-fill link-buffer">
+            <div className="d-flex flex-column link-buffer mx-1">
               <h3>Interests</h3>
               <ul>
                 <li>Programming Easy to Use Websites</li>
                 <li>Integrating Narratives and UX</li>
-                <li>Using AI to improve UX</li>
+                <li>Discovering ways to improve UX across devices</li>
                 <li>Web Development</li>
               </ul>
             </div>
+          
           </div>
         </div>
         <div id="experience" className="container mt-5">
