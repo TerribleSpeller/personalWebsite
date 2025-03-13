@@ -114,7 +114,19 @@ a {
 
 .cool-background-2 {
   z-index: 0;
-  background-image: url("../public/images/grey-washed-wall.png");
+  /* background-image: url("../public/images/grey-washed-wall.png"); */
+  /* background-image: url("../public/images/batthern.png"); */
+  background-image: url("../public/images/escheresque.png");
+}
+
+.cool-background-4 {
+  z-index: 0;
+  background-image: url("../public/images/gplay.png");
+}
+
+.cool-background-5 {
+  z-index: 0;
+  background-image: url("../public/images/natural-paper.png");
 }
 
 .page-content {
@@ -152,11 +164,13 @@ a {
 
 .tab button:hover {
   background-color: #deb5a2;
+  z-index: -1;
+
 }
 
 .tab button.active {
   background-color: #deb5a2;
-
+  z-index: -1;
 }
 
 .tabcontent {

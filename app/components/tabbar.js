@@ -22,11 +22,11 @@ export default function TabBar() {
   return (
     <>
       <div className="tab">
-        <button className={`tablinks rounded-4 ${activeTab === 'programming' ? 'active' : ''} mx-1`} onClick={() => openTab('programming')}><span className="highLight">Gen. Programming</span></button>
-        <button className={`tablinks rounded-4 ${activeTab === 'webdev' ? 'active' : ''} mx-1 `} onClick={() => openTab('webdev')}><span className="highLight">Web Development</span></button>
-        <button className={`tablinks rounded-4 ${activeTab === 'mobdev' ? 'active' : ''} mx-1`} onClick={() => openTab('mobdev')}><span className="highLight">Mobile Development</span></button>
-        <button className={`tablinks rounded-4 ${activeTab === 'ml' ? 'active' : ''} mx-1`} onClick={() => openTab('ml')}><span className="highLight">Machine Learning</span></button>
-        <button className={`tablinks rounded-4 ${activeTab === 'cloudserv' ? 'active' : ''} mx-1`} onClick={() => openTab('cloudserv')}><span className="highLight">Cloud Services</span></button>
+        <button className={`tablinks rounded-4 ${activeTab === 'programming' ? 'active' : ''} mx-1 cool-background-4`} onClick={() => openTab('programming')}><span className="highLight">Gen. Programming</span></button>
+        <button className={`tablinks rounded-4 ${activeTab === 'webdev' ? 'active' : ''} mx-1 cool-background-4 `} onClick={() => openTab('webdev')}><span className="highLight">Web Development</span></button>
+        <button className={`tablinks rounded-4 ${activeTab === 'mobdev' ? 'active' : ''} mx-1 cool-background-4`} onClick={() => openTab('mobdev')}><span className="highLight">Mobile Development</span></button>
+        <button className={`tablinks rounded-4 ${activeTab === 'ml' ? 'active' : ''} mx-1 cool-background-4`} onClick={() => openTab('ml')}><span className="highLight">Machine Learning</span></button>
+        <button className={`tablinks rounded-4 ${activeTab === 'cloudserv' ? 'active' : ''} mx-1 cool-background-4`} onClick={() => openTab('cloudserv')}><span className="highLight">Cloud Services</span></button>
 
 
       </div>
